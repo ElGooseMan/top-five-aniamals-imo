@@ -6,7 +6,7 @@ import Frog from './assets/Pictures/dmtFrog.webp'
 import Cat from './assets/Pictures/carcal.jpeg'
 import Penguin from './assets/Pictures/penguin.avif'
 import Panda from './assets/Pictures/redPanda.jpeg'
-import Fox from './assets/Pictures/articfox.jpeg'
+import Fox from './assets/Pictures/arcticfox.jpeg'
 
 import styled from 'styled-components'
 
@@ -49,11 +49,11 @@ export default function MyApp() {
     <Animal place={3} animal="Emperor Penguin"> 
      <MaxWidthImage src={Penguin}    alt = "emporer penguin chicks"/>
     </Animal>
-    <Animal place={2} animal="Artic Fox"> 
-     <MaxWidthImage src={Fox}    alt = "emporer penguin chicks"/>
+    <Animal place={2} animal="Arctic Fox"> 
+     <MaxWidthImage src={Fox}    alt = "arctic fox"/>
     </Animal>
     <Animal place={1} animal="Red Panda"> 
-     <MaxWidthImage src={Panda}    alt = "emporer penguin chicks"/>
+     <MaxWidthImage src={Panda}    alt = "young red panda"/>
     </Animal>
     
   </div>
